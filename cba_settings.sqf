@@ -168,6 +168,7 @@ force force ace_medical_delayUnconCaptive = 3;
 force force ace_medical_ai_enabledFor = 2;
 force force ace_medical_menu_allow = 1;
 force force ace_medical_menu_maxRange = 3;
+force force ace_medical_preventInstaDeath = true;
 
 // ACE MK6mortard
 force force ace_mk6mortar_airResistanceEnabled = false;
