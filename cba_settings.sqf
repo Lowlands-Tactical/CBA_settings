@@ -336,3 +336,12 @@ force force ace_hitreactions_minDamageToTrigger = 0.1;
 force force ace_inventory_inventoryDisplaySize = 0;
 force force ace_optionsmenu_showNewsOnMainMenu = false;
 force force ace_overpressure_distanceCoefficient = 1;
+
+// ACRE2
+force acre_sys_core_fullDuplex = false;
+force force acre_sys_core_ignoreAntennaDirection = true;
+force force acre_sys_core_interference = true;
+force force acre_sys_core_revealToAI = true;
+force force acre_sys_core_terrainLoss = 0.4;
+force force acre_sys_core_ts3ChannelSwitch = true;
+force force acre_sys_core_unmuteClients = true;
