@@ -342,6 +342,6 @@ force acre_sys_core_fullDuplex = false;
 force force acre_sys_core_ignoreAntennaDirection = true;
 force force acre_sys_core_interference = true;
 force force acre_sys_core_revealToAI = true;
-force force acre_sys_core_terrainLoss = 0.4;
+force force acre_sys_core_terrainLoss = 0;
 force force acre_sys_core_ts3ChannelSwitch = true;
 force force acre_sys_core_unmuteClients = true;
