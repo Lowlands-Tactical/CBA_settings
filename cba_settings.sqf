@@ -70,7 +70,7 @@ force force ace_explosives_explodeOnDefuse = false;
 force force ace_finger_enabled = true;
 force force ace_finger_maxRange = 7;
 force force ace_finger_indicatorForSelf = true;
-force force ace_finger_indicatorColor = [0,0.8545,0.665107,0.342023];
+force force ace_finger_indicatorColor = [0,0.503564,0.43672,1];
 
 // ACE Frag
 force force ace_frag_enabled = false;
