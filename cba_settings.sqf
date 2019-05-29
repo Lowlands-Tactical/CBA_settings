@@ -163,6 +163,7 @@ force force ace_medical_bleedingCoefficient = 1;
 force force ace_medical_blood_enabledFor = 1;
 force force ace_medical_consumeItem_PAK = 0;
 force force ace_medical_consumeItem_SurgicalKit = 0;
+force ace_medical_convertItems = 0;
 force force ace_medical_delayUnconCaptive = 3;
 force force ace_medical_enableAdvancedWounds = false;
 force force ace_medical_enableFor = 0;
@@ -179,7 +180,7 @@ force force ace_medical_litterCleanUpDelay = 0;
 force force ace_medical_litterSimulationDetail = 3;
 force force ace_medical_maxReviveTime = 120;
 force force ace_medical_medicSetting = 1;
-force force ace_medical_medicSetting_basicEpi = 1;
+force force ace_medical_medicSetting_basicEpi = 0;
 force force ace_medical_medicSetting_PAK = 1;
 force force ace_medical_medicSetting_SurgicalKit = 1;
 force force ace_medical_menu_allow = 1;
@@ -187,6 +188,7 @@ force force ace_medical_menu_maxRange = 3;
 force force ace_medical_menu_openAfterTreatment = true;
 force force ace_medical_menu_useMenu = 1;
 force force ace_medical_menuTypeStyle = 0;
+ace_medical_menuTypeStyleSelf = true;
 force force ace_medical_moveUnitsFromGroupOnUnconscious = false;
 force force ace_medical_painCoefficient = 1;
 ace_medical_painEffectType = 1;
@@ -297,6 +299,7 @@ force force ace_switchunits_switchToWest = false;
 ace_tagging_quickTag = 1;
 
 // ACE Uncategorized
+force ace_fastroping_requireRopeItems = false;
 force force ace_gforces_enabledFor = 0;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
 force force ace_inventory_inventoryDisplaySize = 0;
@@ -381,26 +384,18 @@ force ace_zeus_revealMines = 0;
 force ace_zeus_zeusAscension = false;
 force ace_zeus_zeusBird = false;
 
-// ACRE2
-force acre_sys_core_fullDuplex = false;
-force acre_sys_core_ignoreAntennaDirection = false;
-force acre_sys_core_interference = true;
-acre_sys_core_postmixGlobalVolume = 1.84893;
-acre_sys_core_premixGlobalVolume = 1.78877;
-force acre_sys_core_revealToAI = true;
-acre_sys_core_spectatorVolume = 1;
-force acre_sys_core_terrainLoss = 0.102495;
-force acre_sys_core_ts3ChannelName = "";
-force acre_sys_core_ts3ChannelPassword = "";
-acre_sys_core_ts3ChannelSwitch = true;
-acre_sys_core_unmuteClients = true;
+// ACEX Fortify
+acex_fortify_settingHint = 2;
 
+// CBA UI
+cba_ui_StorePasswords = 1;
 
-// ACE Fuck knows where to put this
-force force ace_hitreactions_minDamageToTrigger = 0.1;
-force force ace_inventory_inventoryDisplaySize = 0;
-force force ace_optionsmenu_showNewsOnMainMenu = false;
-force force ace_overpressure_distanceCoefficient = 1;
+// CBA Weapons
+cba_disposable_dropUsedLauncher = 2;
+force cba_disposable_replaceDisposableLauncher = true;
+cba_events_repetitionMode = 1;
+cba_optics_usePipOptics = true;
+
 
 // ACRE2
 force acre_sys_core_fullDuplex = false;
