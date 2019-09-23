@@ -59,14 +59,14 @@ force force ace_cookoff_probabilityCoef = 1;
 // ACE Explosives
 force ace_explosives_explodeOnDefuse = false;
 force force ace_explosives_punishNonSpecialists = true;
-force ace_explosives_requireSpecialist = false;
+force ace_explosives_requireSpecialist = true;
 
 // ACE Fragmentation Simulation
-force force ace_frag_enabled = false;
+force force ace_frag_enabled = true;
 force force ace_frag_maxTrack = 10;
 force force ace_frag_maxTrackPerFrame = 10;
-force force ace_frag_reflectionsEnabled = false;
-force force ace_frag_spallEnabled = false;
+force force ace_frag_reflectionsEnabled = true;
+force force ace_frag_spallEnabled = true;
 
 // ACE Goggles
 force force ace_goggles_effects = 2;
@@ -84,6 +84,24 @@ force ace_hearing_unconsciousnessVolume = 0.4;
 force force ace_interaction_disableNegativeRating = false;
 force force ace_interaction_enableMagazinePassing = true;
 force force ace_interaction_enableTeamManagement = true;
+
+// ACE Interaction Menu
+ace_gestures_showOnInteractionMenu = 2;
+ace_interact_menu_actionOnKeyRelease = true;
+ace_interact_menu_addBuildingActions = false;
+ace_interact_menu_alwaysUseCursorInteraction = true;
+ace_interact_menu_alwaysUseCursorSelfInteraction = true;
+ace_interact_menu_colorShadowMax = [0,0,0,1];
+ace_interact_menu_colorShadowMin = [0,0,0,0.25];
+ace_interact_menu_colorTextMax = [1,1,1,1];
+ace_interact_menu_colorTextMin = [1,1,1,0.25];
+ace_interact_menu_cursorKeepCentered = false;
+ace_interact_menu_menuAnimationSpeed = 0;
+ace_interact_menu_menuBackground = 0;
+ace_interact_menu_selectorColor = [1,0,0];
+ace_interact_menu_shadowSetting = 2;
+ace_interact_menu_textSize = 2;
+ace_interact_menu_useListMenu = false;
 
 // ACE Logistics
 force force ace_cargo_enable = true;
@@ -162,21 +180,21 @@ force force ace_medical_litterCleanUpDelay = 0;
 force force ace_medical_litterSimulationDetail = 3;
 force force ace_medical_maxReviveTime = 120;
 force force ace_medical_medicSetting = 1;
-force force ace_medical_medicSetting_basicEpi = 0;
-force force ace_medical_medicSetting_PAK = 0;
-force force ace_medical_medicSetting_SurgicalKit = 0;
+force force ace_medical_medicSetting_basicEpi = 1;
+force force ace_medical_medicSetting_PAK = 1;
+force force ace_medical_medicSetting_SurgicalKit = 1;
 force force ace_medical_menu_allow = 1;
 force force ace_medical_menu_maxRange = 3;
 ace_medical_menu_openAfterTreatment = true;
 ace_medical_menu_useMenu = 1;
-ace_medical_menuTypeStyle = 0;
+ace_medical_menuTypeStyle = 1;
 ace_medical_menuTypeStyleSelf = true;
 force force ace_medical_moveUnitsFromGroupOnUnconscious = false;
 force force ace_medical_painCoefficient = 1;
-force force ace_medical_painEffectType = 1;
+force force ace_medical_painEffectType = 0;
 force force ace_medical_painIsOnlySuppressed = true;
 force force ace_medical_playerDamageThreshold = 1;
-force force ace_medical_preventInstaDeath = true;
+force force ace_medical_preventInstaDeath = false;
 force force ace_medical_remoteControlledAI = true;
 force force ace_medical_useCondition_PAK = 0;
 force force ace_medical_useCondition_SurgicalKit = 0;
@@ -366,24 +384,42 @@ force ace_zeus_revealMines = 0;
 force ace_zeus_zeusAscension = false;
 force ace_zeus_zeusBird = false;
 
-// ACEX Fortify
-acex_fortify_settingHint = 2;
-
 // ACRE2
+acre_sys_core_automaticAntennaDirection = false;
+acre_sys_core_defaultRadioVolume = 0.8;
 force force acre_sys_core_fullDuplex = false;
 force force acre_sys_core_ignoreAntennaDirection = false;
 force force acre_sys_core_interference = true;
 force force acre_sys_core_postmixGlobalVolume = 1.84893;
 force force acre_sys_core_premixGlobalVolume = 1.78877;
-force force acre_sys_core_revealToAI = true;
+force acre_sys_core_revealToAI = 1;
 force force acre_sys_core_spectatorVolume = 1;
 force force acre_sys_core_terrainLoss = 0.102495;
 force force acre_sys_core_ts3ChannelName = "ACRE";
 force force acre_sys_core_ts3ChannelPassword = "";
 force force acre_sys_core_ts3ChannelSwitch = true;
 force force acre_sys_core_unmuteClients = true;
+force acre_sys_signal_signalModel = 2;
+
+// ACRE2 UI
+acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
+acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
+acre_sys_list_HintBackgroundColor = [0,0,0,0.8];
+acre_sys_list_HintTextFont = "RobotoCondensed";
+acre_sys_list_LanguageColor = [1,0.29,0.16,1];
+acre_sys_list_PTT1Color = [0.236186,0.8,0,1];
+acre_sys_list_PTT2Color = [0,0.252896,0.871212,1];
+acre_sys_list_PTT3Color = [1,0.8,0,1];
+acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1];
+acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
+
+// ACRE2 Zeus
+acre_sys_zeus_zeusCanSpectate = true;
+acre_sys_zeus_zeusCommunicateViaCamera = true;
+acre_sys_zeus_zeusDefaultVoiceSource = false;
 
 // CBA UI
+cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
 // CBA Weapons
