@@ -399,17 +399,6 @@ force force acre_sys_core_ts3ChannelSwitch = true;
 force force acre_sys_core_unmuteClients = true;
 force acre_sys_signal_signalModel = 2;
 
-// ACRE2 UI
-acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
-acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
-acre_sys_list_HintBackgroundColor = [0,0,0,0.8];
-acre_sys_list_HintTextFont = "RobotoCondensed";
-acre_sys_list_LanguageColor = [1,0.29,0.16,1];
-acre_sys_list_PTT1Color = [0.236186,0.8,0,1];
-acre_sys_list_PTT2Color = [0,0.252896,0.871212,1];
-acre_sys_list_PTT3Color = [1,0.8,0,1];
-acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1];
-acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
 
 // ACRE2 Zeus
 acre_sys_zeus_zeusCanSpectate = true;
