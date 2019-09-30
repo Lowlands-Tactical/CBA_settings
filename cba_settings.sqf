@@ -153,7 +153,7 @@ force force ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
 ace_maptools_drawStraightLines = true;
 ace_maptools_rotateModifierKey = 1;
 
-// ACE Medical
+/ ACE Medical
 force force ace_medical_ai_enabledFor = 2;
 force force ace_medical_AIDamageThreshold = 1;
 force force ace_medical_allowLitterCreation = true;
@@ -175,9 +175,11 @@ force force ace_medical_enableVehicleCrashes = true;
 force force ace_medical_healHitPointAfterAdvBandage = false;
 force force ace_medical_increaseTrainingInLocations = false;
 force force ace_medical_keepLocalSettingsSynced = true;
+force force ace_medical_level = 1;
 force force ace_medical_litterCleanUpDelay = 0;
 force force ace_medical_litterSimulationDetail = 3;
 force force ace_medical_maxReviveTime = 120;
+force force ace_medical_medicSetting = 1;
 force force ace_medical_medicSetting_basicEpi = 1;
 force force ace_medical_medicSetting_PAK = 1;
 force force ace_medical_medicSetting_SurgicalKit = 1;
