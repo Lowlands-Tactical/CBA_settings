@@ -59,7 +59,7 @@ force force ace_cookoff_probabilityCoef = 1;
 // ACE Explosives
 force ace_explosives_explodeOnDefuse = false;
 force force ace_explosives_punishNonSpecialists = true;
-force ace_explosives_requireSpecialist = true;
+force force ace_explosives_requireSpecialist = true;
 
 // ACE Fragmentation Simulation
 force force ace_frag_enabled = true;
@@ -84,24 +84,6 @@ force ace_hearing_unconsciousnessVolume = 0.4;
 force force ace_interaction_disableNegativeRating = false;
 force force ace_interaction_enableMagazinePassing = true;
 force force ace_interaction_enableTeamManagement = true;
-
-// ACE Interaction Menu
-ace_gestures_showOnInteractionMenu = 2;
-ace_interact_menu_actionOnKeyRelease = true;
-ace_interact_menu_addBuildingActions = false;
-ace_interact_menu_alwaysUseCursorInteraction = true;
-ace_interact_menu_alwaysUseCursorSelfInteraction = true;
-ace_interact_menu_colorShadowMax = [0,0,0,1];
-ace_interact_menu_colorShadowMin = [0,0,0,0.25];
-ace_interact_menu_colorTextMax = [1,1,1,1];
-ace_interact_menu_colorTextMin = [1,1,1,0.25];
-ace_interact_menu_cursorKeepCentered = false;
-ace_interact_menu_menuAnimationSpeed = 0;
-ace_interact_menu_menuBackground = 0;
-ace_interact_menu_selectorColor = [1,0,0];
-ace_interact_menu_shadowSetting = 2;
-ace_interact_menu_textSize = 2;
-ace_interact_menu_useListMenu = false;
 
 // ACE Logistics
 force force ace_cargo_enable = true;
@@ -153,7 +135,7 @@ force force ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
 ace_maptools_drawStraightLines = true;
 ace_maptools_rotateModifierKey = 1;
 
-/ ACE Medical
+// ACE Medical
 force force ace_medical_ai_enabledFor = 2;
 force force ace_medical_AIDamageThreshold = 1;
 force force ace_medical_allowLitterCreation = true;
@@ -168,18 +150,18 @@ force force ace_medical_delayUnconCaptive = 3;
 force force ace_medical_enableAdvancedWounds = false;
 force force ace_medical_enableFor = 0;
 force force ace_medical_enableOverdosing = true;
-force force ace_medical_enableRevive = 1;
+force force ace_medical_enableRevive = 0;
 force force ace_medical_enableScreams = true;
 force force ace_medical_enableUnconsciousnessAI = 0;
 force force ace_medical_enableVehicleCrashes = true;
 force force ace_medical_healHitPointAfterAdvBandage = false;
 force force ace_medical_increaseTrainingInLocations = false;
 force force ace_medical_keepLocalSettingsSynced = true;
-force force ace_medical_level = 1;
+force ace_medical_level = 1;
 force force ace_medical_litterCleanUpDelay = 0;
 force force ace_medical_litterSimulationDetail = 3;
 force force ace_medical_maxReviveTime = 120;
-force force ace_medical_medicSetting = 1;
+force ace_medical_medicSetting = 1;
 force force ace_medical_medicSetting_basicEpi = 1;
 force force ace_medical_medicSetting_PAK = 1;
 force force ace_medical_medicSetting_SurgicalKit = 1;
@@ -188,10 +170,9 @@ force force ace_medical_menu_maxRange = 3;
 ace_medical_menu_openAfterTreatment = true;
 ace_medical_menu_useMenu = 1;
 ace_medical_menuTypeStyle = 1;
-ace_medical_menuTypeStyleSelf = true;
+force force ace_medical_menuTypeStyleSelf = true;
 force force ace_medical_moveUnitsFromGroupOnUnconscious = false;
 force force ace_medical_painCoefficient = 1;
-force force ace_medical_painEffectType = 0;
 force force ace_medical_painIsOnlySuppressed = true;
 force force ace_medical_playerDamageThreshold = 1;
 force force ace_medical_preventInstaDeath = false;
@@ -226,11 +207,11 @@ force force ace_nametags_showVehicleCrewInfo = true;
 ace_nametags_tagSize = 2;
 
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur = 0.962567;
+force force ace_nightvision_aimDownSightsBlur = 0.2;
 force force ace_nightvision_disableNVGsWithSights = false;
 force force ace_nightvision_effectScaling = 1;
 force force ace_nightvision_fogScaling = 1;
-force force ace_nightvision_noiseScaling = 0.472372;
+force force ace_nightvision_noiseScaling = 1;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
@@ -244,7 +225,7 @@ force force ace_overheating_unJamOnreload = false;
 
 // ACE Pointing
 force force ace_finger_enabled = true;
-force force ace_finger_indicatorColor = [1,0.503564,0,1];
+force force ace_finger_indicatorColor = [1,0.43115,0,1];
 force force ace_finger_indicatorForSelf = true;
 force force ace_finger_maxRange = 7;
 
@@ -312,52 +293,44 @@ force force ace_overpressure_distanceCoefficient = 1;
 // ACE User Interface
 force force ace_ui_allowSelectiveUI = true;
 force force ace_ui_ammoCount = false;
-force force ace_ui_ammoType = true;
+force force ace_ui_ammoType = false;
 force force ace_ui_commandMenu = true;
 force force ace_ui_firingMode = true;
 force force ace_ui_groupBar = false;
 force force ace_ui_gunnerAmmoCount = true;
 force force ace_ui_gunnerAmmoType = true;
-force force ace_ui_gunnerFiringMode = true;
+force force ace_ui_gunnerFiringMode = false;
 force force ace_ui_gunnerLaunchableCount = true;
 force force ace_ui_gunnerLaunchableName = true;
-force force ace_ui_gunnerMagCount = true;
-force force ace_ui_gunnerWeaponLowerInfoBackground = true;
+force force ace_ui_gunnerMagCount = false;
+force force ace_ui_gunnerWeaponLowerInfoBackground = false;
 force force ace_ui_gunnerWeaponName = true;
 force force ace_ui_gunnerWeaponNameBackground = true;
 force force ace_ui_gunnerZeroing = true;
 force force ace_ui_magCount = true;
 force force ace_ui_soldierVehicleWeaponInfo = true;
 force force ace_ui_staminaBar = false;
-force force ace_ui_stance = true;
-force force ace_ui_throwableCount = true;
+force force ace_ui_stance = false;
+force force ace_ui_throwableCount = false;
 force force ace_ui_throwableName = true;
 force force ace_ui_vehicleAltitude = true;
 force force ace_ui_vehicleCompass = true;
 force force ace_ui_vehicleDamage = true;
 force force ace_ui_vehicleFuelBar = true;
-force force ace_ui_vehicleInfoBackground = true;
-force force ace_ui_vehicleName = true;
-force force ace_ui_vehicleNameBackground = true;
+force force ace_ui_vehicleInfoBackground = false;
+force force ace_ui_vehicleName = false;
+force force ace_ui_vehicleNameBackground = false;
 force force ace_ui_vehicleRadar = true;
 force force ace_ui_vehicleSpeed = true;
-force force ace_ui_weaponLowerInfoBackground = true;
-force force ace_ui_weaponName = true;
-force force ace_ui_weaponNameBackground = true;
-force force ace_ui_zeroing = true;
+force force ace_ui_weaponLowerInfoBackground = false;
+force force ace_ui_weaponName = false;
+force force ace_ui_weaponNameBackground = false;
+force force ace_ui_zeroing = false;
 
 // ACE Vehicle Lock
 force ace_vehiclelock_defaultLockpickStrength = 10;
 force ace_vehiclelock_lockVehicleInventory = false;
 force ace_vehiclelock_vehicleStartingLockState = -1;
-
-// ACE View Distance Limiter
-force ace_viewdistance_enabled = true;
-force ace_viewdistance_limitViewDistance = 10000;
-ace_viewdistance_objectViewDistanceCoeff = 0;
-ace_viewdistance_viewDistanceAirVehicle = 0;
-ace_viewdistance_viewDistanceLandVehicle = 0;
-ace_viewdistance_viewDistanceOnFoot = 0;
 
 // ACE Weapons
 force force ace_common_persistentLaserEnabled = true;
@@ -384,28 +357,15 @@ force ace_zeus_revealMines = 0;
 force ace_zeus_zeusAscension = false;
 force ace_zeus_zeusBird = false;
 
-// ACRE2
-acre_sys_core_automaticAntennaDirection = false;
-acre_sys_core_defaultRadioVolume = 0.8;
-force force acre_sys_core_fullDuplex = false;
-force force acre_sys_core_ignoreAntennaDirection = false;
-force force acre_sys_core_interference = true;
-force force acre_sys_core_postmixGlobalVolume = 1.84893;
-force force acre_sys_core_premixGlobalVolume = 1.78877;
-force acre_sys_core_revealToAI = 1;
-force force acre_sys_core_spectatorVolume = 1;
-force force acre_sys_core_terrainLoss = 0.102495;
-force force acre_sys_core_ts3ChannelName = "ACRE";
-force force acre_sys_core_ts3ChannelPassword = "";
-force force acre_sys_core_ts3ChannelSwitch = true;
-force force acre_sys_core_unmuteClients = true;
-force acre_sys_signal_signalModel = 2;
+// CBA UI
+cba_ui_notifyLifetime = 4;
+cba_ui_StorePasswords = 1;
 
-
-// ACRE2 Zeus
-acre_sys_zeus_zeusCanSpectate = true;
-acre_sys_zeus_zeusCommunicateViaCamera = true;
-acre_sys_zeus_zeusDefaultVoiceSource = false;
+// CBA Weapons
+cba_disposable_dropUsedLauncher = 2;
+force cba_disposable_replaceDisposableLauncher = true;
+cba_events_repetitionMode = 1;
+cba_optics_usePipOptics = true;
 
 // CBA UI
 cba_ui_notifyLifetime = 4;
