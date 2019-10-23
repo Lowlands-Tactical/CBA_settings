@@ -376,3 +376,28 @@ cba_disposable_dropUsedLauncher = 2;
 force cba_disposable_replaceDisposableLauncher = true;
 cba_events_repetitionMode = 1;
 cba_optics_usePipOptics = true;
+
+// DUI - Squad Radar - Radar
+force force diwako_dui_compass_hide_alone_group = true;
+force force diwako_dui_compass_hide_blip_alone_group = true;
+force force diwako_dui_dir_showMildot = false;
+force force diwako_dui_dir_size = 1.25;
+force force diwako_dui_enable_compass = true;
+force force diwako_dui_enable_compass_dir = 1;
+force force diwako_dui_enable_occlusion = true;
+force force diwako_dui_enable_occlusion_cone = 90;
+force force diwako_dui_namelist = true;
+force force diwako_dui_namelist_only_buddy_icon = false;
+force force diwako_dui_namelist_text_shadow = 2;
+force force diwako_dui_radar_ace_finger = true;
+force force diwako_dui_radar_group_by_vehicle = true;
+force force diwako_dui_radar_leadingZeroes = false;
+force force diwako_dui_radar_namelist_hideWhenLeader = false;
+force force diwako_dui_radar_occlusion_fade_time = 5;
+force force diwako_dui_radar_pointer_style = "standard";
+force force diwako_dui_radar_sortType = "fireteam";
+force force diwako_dui_radar_sqlFirst = true;
+force force diwako_dui_radar_trackingColor = [0.548128,0.258467,1,1];
+force force diwako_dui_reset_ui_pos = false;
+force force diwako_dui_use_layout_editor = false;
+
