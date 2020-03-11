@@ -326,43 +326,6 @@ force force ace_optionsmenu_showNewsOnMainMenu = false;
 force force ace_overpressure_distanceCoefficient = 1;
 ace_tagging_quickTag = 1;
 
-// ACE User Interface
-force force ace_ui_allowSelectiveUI = true;
-force force ace_ui_ammoCount = false;
-force force ace_ui_ammoType = true;
-force force ace_ui_commandMenu = true;
-force force ace_ui_firingMode = true;
-force force ace_ui_groupBar = false;
-force force ace_ui_gunnerAmmoCount = true;
-force force ace_ui_gunnerAmmoType = true;
-force force ace_ui_gunnerFiringMode = true;
-force force ace_ui_gunnerLaunchableCount = true;
-force force ace_ui_gunnerLaunchableName = true;
-force force ace_ui_gunnerMagCount = true;
-force force ace_ui_gunnerWeaponLowerInfoBackground = true;
-force force ace_ui_gunnerWeaponName = true;
-force force ace_ui_gunnerWeaponNameBackground = true;
-force force ace_ui_gunnerZeroing = true;
-force force ace_ui_magCount = true;
-force force ace_ui_soldierVehicleWeaponInfo = true;
-force force ace_ui_staminaBar = false;
-force force ace_ui_stance = true;
-force force ace_ui_throwableCount = true;
-force force ace_ui_throwableName = true;
-force force ace_ui_vehicleAltitude = true;
-force force ace_ui_vehicleCompass = true;
-force force ace_ui_vehicleDamage = true;
-force force ace_ui_vehicleFuelBar = true;
-force force ace_ui_vehicleInfoBackground = true;
-force force ace_ui_vehicleName = true;
-force force ace_ui_vehicleNameBackground = true;
-force force ace_ui_vehicleRadar = true;
-force force ace_ui_vehicleSpeed = true;
-force force ace_ui_weaponLowerInfoBackground = true;
-force force ace_ui_weaponName = true;
-force force ace_ui_weaponNameBackground = true;
-force force ace_ui_zeroing = true;
-
 // ACE Vehicle Lock
 force ace_vehiclelock_defaultLockpickStrength = 10;
 force ace_vehiclelock_lockVehicleInventory = false;
@@ -548,4 +511,3 @@ force force diwako_dui_radar_sqlFirst = true;
 force force diwako_dui_radar_trackingColor = [0.548128,0.258467,1,1];
 force force diwako_dui_reset_ui_pos = false;
 force force diwako_dui_use_layout_editor = false;
-
