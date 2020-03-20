@@ -423,20 +423,6 @@ force cba_disposable_replaceDisposableLauncher = true;
 cba_events_repetitionMode = 1;
 cba_optics_usePipOptics = true;
 
-// CBA UI
-cba_ui_notifyLifetime = 4;
-cba_ui_StorePasswords = 1;
-
-// CBA Weapons
-cba_disposable_dropUsedLauncher = 2;
-force cba_disposable_replaceDisposableLauncher = true;
-cba_events_repetitionMode = 1;
-cba_optics_usePipOptics = true;
-
-// CBA UI
-cba_ui_notifyLifetime = 4;
-cba_ui_StorePasswords = 1;
-
 
 // DUI - Squad Radar - Indicators
 force force diwako_dui_indicators_fov_scale = false;
