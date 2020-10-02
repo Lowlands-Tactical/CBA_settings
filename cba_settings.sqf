@@ -622,21 +622,21 @@ force force diwako_dui_reset_ui_pos = false;
 force force diwako_dui_use_layout_editor = false;
 
 // LAMBS Danger
-force lambs_danger_combatShareRange = 200;
-force lambs_danger_CQB_formations_COLUMN = false;
-force lambs_danger_CQB_formations_DIAMOND = true;
-force lambs_danger_CQB_formations_ECH LEFT = false;
-force lambs_danger_CQB_formations_ECH RIGHT = false;
-force lambs_danger_CQB_formations_FILE = true;
-force lambs_danger_CQB_formations_LINE = false;
-force lambs_danger_CQB_formations_STAG COLUMN = false;
-force lambs_danger_CQB_formations_VEE = false;
-force lambs_danger_CQB_formations_WEDGE = false;
-force lambs_danger_CQB_range = 60;
-force lambs_danger_debug_Drawing = false;
-force lambs_danger_debug_FSM = false;
-force lambs_danger_debug_FSM_civ = false;
-force lambs_danger_debug_functions = false;
+lambs_danger_combatShareRange = 200;
+lambs_danger_CQB_formations_COLUMN = false;
+lambs_danger_CQB_formations_DIAMOND = true;
+lambs_danger_CQB_formations_ECH LEFT = false;
+lambs_danger_CQB_formations_ECH RIGHT = false;
+lambs_danger_CQB_formations_FILE = true;
+lambs_danger_CQB_formations_LINE = false;
+lambs_danger_CQB_formations_STAG COLUMN = false;
+lambs_danger_CQB_formations_VEE = false;
+lambs_danger_CQB_formations_WEDGE = false;
+lambs_danger_CQB_range = 60;
+lambs_danger_debug_Drawing = false;
+lambs_danger_debug_FSM = false;
+lambs_danger_debug_FSM_civ = false;
+lambs_danger_debug_functions = false;
 lambs_danger_disableAIAutonomousManoeuvres = false;
 lambs_danger_disableAICallouts = false;
 lambs_danger_disableAIDeployStaticWeapons = false;
@@ -650,30 +650,30 @@ lambs_danger_disableAIPlayerGroupReaction = false;
 lambs_danger_disableAIPlayerGroupSuppression = false;
 lambs_danger_disableAutonomousFlares = false;
 lambs_danger_disableAutonomousSmokeGrenades = false;
-force lambs_danger_maxRevealValue = 1;
-force lambs_danger_minFriendlySuppressionDistance = 5;
-force lambs_danger_minSuppression_range = 20;
-force lambs_danger_panic_chance = 10;
-force lambs_danger_radio_backpack = 2000;
+lambs_danger_maxRevealValue = 1;
+lambs_danger_minFriendlySuppressionDistance = 5;
+lambs_danger_minSuppression_range = 20;
+lambs_danger_panic_chance = 10;
+lambs_danger_radio_backpack = 2000;
 lambs_danger_radio_disabled = false;
-force lambs_danger_radio_EAST = 500;
-force lambs_danger_radio_GUER = 500;
-force lambs_danger_radio_shout = 100;
-force lambs_danger_radio_WEST = 500;
-force lambs_danger_RenderExpectedDestination = false;
+lambs_danger_radio_EAST = 500;
+lambs_danger_radio_GUER = 500;
+lambs_danger_radio_shout = 100;
+lambs_danger_radio_WEST = 500;
+lambs_danger_RenderExpectedDestination = false;
 
 // LAMBS Danger Eventhandlers
-force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
-force lambs_eventhandlers_ExplosionReactionTime = 9;
+lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
+lambs_eventhandlers_ExplosionReactionTime = 9;
 
 // LAMBS Danger WP
-force lambs_wp_autoAddArtillery = false;
+lambs_wp_autoAddArtillery = false;
 
 // LAxemann's Suppress
-force L_Suppress_buildup = 0.5;
+force L_Suppress_buildup = 0.25;
 force L_Suppress_enabled = true;
 force L_Suppress_flyByEffects = true;
-force L_Suppress_flyByIntensity = 0.2;
+force L_Suppress_flyByIntensity = 0.1;
 force L_Suppress_halting = true;
 force L_Suppress_intensity = 1;
 force L_Suppress_playerSwabEnabled = false;
