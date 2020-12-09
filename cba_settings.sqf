@@ -180,7 +180,7 @@ force ace_medical_statemachine_AIUnconsciousness = false;
 force ace_medical_statemachine_cardiacArrestTime = 300;
 force ace_medical_statemachine_fatalInjuriesAI = 2;
 force ace_medical_statemachine_fatalInjuriesPlayer = 1;
-force ace_medical_treatment_advancedBandages = true;
+force ace_medical_treatment_advancedBandages = 1;
 force ace_medical_treatment_advancedDiagnose = true;
 force ace_medical_treatment_advancedMedication = false;
 force ace_medical_treatment_allowLitterCreation = true;
@@ -482,19 +482,19 @@ Achilles_var_Achilles_Module_Supply_Drop = true;
 Achilles_var_Achilles_Module_Zeus_AssignZeus = true;
 Achilles_var_Achilles_Module_Zeus_SwitchUnit = true;
 Achilles_var_Achilles_Nuke_Module = true;
+Achilles_var_Achilles_Patrol_Module = true;
 Achilles_var_Achilles_Set_Date_Module = true;
 Achilles_var_Achilles_Set_Height_Module = true;
 Achilles_var_Achilles_Set_Weather_Module = true;
 Achilles_var_Achilles_Sit_On_Chair_Module = true;
 Achilles_var_Achilles_SuicideBomber_Module = true;
 Achilles_var_Achilles_Suppressive_Fire_Module = true;
+Achilles_var_Achilles_SurrenderUnit_Module = true;
 Achilles_var_Achilles_Toggle_Simulation_Module = true;
 Achilles_var_Achilles_Transfer_Ownership_Module = true;
 Achilles_var_Ares_Artillery_Fire_Mission_Module = true;
 Achilles_var_Ares_Module_Bahaviour_Garrison_Nearest = true;
-Achilles_var_Ares_Module_Bahaviour_SurrenderUnit = true;
 Achilles_var_Ares_Module_Bahaviour_UnGarrison = true;
-Achilles_var_Ares_Module_Behaviour_Patrol = true;
 Achilles_var_Ares_Module_Behaviour_Search_Nearby_And_Garrison = true;
 Achilles_var_Ares_Module_Behaviour_Search_Nearby_Building = true;
 Achilles_var_Ares_Module_Dev_Tools_Create_Mission_SQF = true;
@@ -545,6 +545,7 @@ Achilles_var_moduleTreeSearchPatch = false;
 force force acre_sys_core_automaticAntennaDirection = false;
 force force acre_sys_core_defaultRadioVolume = 0.8;
 force force acre_sys_core_fullDuplex = false;
+acre_sys_core_godVolume = 1;
 force force acre_sys_core_ignoreAntennaDirection = false;
 force force acre_sys_core_interference = true;
 force force acre_sys_core_postmixGlobalVolume = 1;
@@ -559,6 +560,13 @@ force force acre_sys_core_unmuteClients = true;
 force force acre_sys_signal_signalModel = 2;
 
 // ACRE2 UI
+acre_sys_godmode_rxNotification = true;
+acre_sys_godmode_rxNotificationColor = [0.8,0.8,0.8,1];
+acre_sys_godmode_txNotification = true;
+acre_sys_godmode_txNotificationCurrentChatColor = [0.8,0.8,0.8,1];
+acre_sys_godmode_txNotificationGroup1Color = [0.8,0.8,0.8,1];
+acre_sys_godmode_txNotificationGroup2Color = [0.8,0.8,0.8,1];
+acre_sys_godmode_txNotificationGroup3Color = [0.8,0.8,0.8,1];
 acre_sys_gui_volumeColorScale = [[1,1,0,0.5],[1,0.83,0,0.5],[1,0.65,0,0.5],[1,0.44,0,0.5],[1,0,0,0.5]];
 acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
 acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
@@ -621,8 +629,27 @@ force force diwako_dui_radar_trackingColor = [0.548128,0.258467,1,1];
 force force diwako_dui_reset_ui_pos = false;
 force force diwako_dui_use_layout_editor = false;
 
+// GRAD Trenches
+force grad_trenches_functions_allowBigEnvelope = true;
+force grad_trenches_functions_allowCamouflage = true;
+force grad_trenches_functions_allowDigging = true;
+force grad_trenches_functions_allowGiantEnvelope = true;
+force grad_trenches_functions_allowLongEnvelope = true;
+force grad_trenches_functions_allowShortEnvelope = true;
+force grad_trenches_functions_allowSmallEnvelope = true;
+force grad_trenches_functions_allowVehicleEnvelope = true;
+force grad_trenches_functions_bigEnvelopeDigTime = 40;
+force grad_trenches_functions_buildFatigueFactor = 1;
+force grad_trenches_functions_camouflageRequireEntrenchmentTool = true;
+force grad_trenches_functions_giantEnvelopeDigTime = 90;
+force grad_trenches_functions_LongEnvelopeDigTime = 100;
+force grad_trenches_functions_shortEnvelopeDigTime = 15;
+force grad_trenches_functions_smallEnvelopeDigTime = 30;
+force grad_trenches_functions_stopBuildingAtFatigueMax = true;
+force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
+
 // LAMBS Danger
-lambs_danger_combatShareRange = 200;
+lambs_danger_combatShareRange = 60;
 lambs_danger_CQB_formations_COLUMN = false;
 lambs_danger_CQB_formations_DIAMOND = true;
 lambs_danger_CQB_formations_ECH LEFT = false;
@@ -649,25 +676,25 @@ lambs_danger_disableAIPlayerGroup = false;
 lambs_danger_disableAIPlayerGroupReaction = false;
 lambs_danger_disableAIPlayerGroupSuppression = false;
 lambs_danger_disableAutonomousFlares = false;
-lambs_danger_disableAutonomousSmokeGrenades = false;
-lambs_danger_maxRevealValue = 1;
+lambs_danger_disableAutonomousSmokeGrenades = true;
+lambs_danger_maxRevealValue = 0.75;
 lambs_danger_minFriendlySuppressionDistance = 5;
 lambs_danger_minSuppression_range = 20;
 lambs_danger_panic_chance = 10;
-lambs_danger_radio_backpack = 2000;
+lambs_danger_radio_backpack = 500;
 lambs_danger_radio_disabled = false;
-lambs_danger_radio_EAST = 500;
-lambs_danger_radio_GUER = 500;
-lambs_danger_radio_shout = 100;
-lambs_danger_radio_WEST = 500;
+lambs_danger_radio_EAST = 100;
+lambs_danger_radio_GUER = 100;
+lambs_danger_radio_shout = 60;
+lambs_danger_radio_WEST = 100;
 lambs_danger_RenderExpectedDestination = false;
 
 // LAMBS Danger Eventhandlers
-lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
-lambs_eventhandlers_ExplosionReactionTime = 9;
+force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
+force lambs_eventhandlers_ExplosionReactionTime = 9;
 
 // LAMBS Danger WP
-lambs_wp_autoAddArtillery = false;
+force lambs_wp_autoAddArtillery = false;
 
 // LAxemann's Suppress
 force L_Suppress_buildup = 0.25;
