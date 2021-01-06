@@ -1,9 +1,9 @@
 // ACE Advanced Ballistics
-force force ace_advanced_ballistics_ammoTemperatureEnabled = false;
-force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = false;
+force force ace_advanced_ballistics_ammoTemperatureEnabled = true;
+force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 force force ace_advanced_ballistics_bulletTraceEnabled = true;
-force force ace_advanced_ballistics_enabled = false;
-force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = false;
+force force ace_advanced_ballistics_enabled = true;
+force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force force ace_advanced_ballistics_simulationInterval = 0.05;
 
 // ACE Advanced Fatigue
@@ -163,7 +163,9 @@ force ace_medical_blood_bloodLifetime = 900;
 force ace_medical_blood_enabledFor = 2;
 force ace_medical_blood_maxBloodObjects = 500;
 force ace_medical_fatalDamageSource = 2;
+ace_medical_feedback_bloodVolumeEffectType = 0;
 ace_medical_feedback_painEffectType = 2;
+force ace_medical_fractureChance = 0.75;
 force ace_medical_fractures = 1;
 ace_medical_gui_enableActions = 0;
 ace_medical_gui_enableMedicalMenu = 1;
@@ -173,18 +175,19 @@ ace_medical_gui_openAfterTreatment = true;
 force ace_medical_ivFlowRate = 5;
 force ace_medical_limping = 1;
 force ace_medical_painCoefficient = 1;
-force ace_medical_playerDamageThreshold = 1;
-force ace_medical_spontaneousWakeUpChance = 0.5;
+force ace_medical_playerDamageThreshold = 0.8;
+force ace_medical_spontaneousWakeUpChance = 0.2;
 force ace_medical_spontaneousWakeUpEpinephrineBoost = 10;
 force ace_medical_statemachine_AIUnconsciousness = false;
 force ace_medical_statemachine_cardiacArrestTime = 300;
 force ace_medical_statemachine_fatalInjuriesAI = 2;
 force ace_medical_statemachine_fatalInjuriesPlayer = 1;
-force ace_medical_treatment_advancedBandages = 1;
+force ace_medical_treatment_advancedBandages = 2;
 force ace_medical_treatment_advancedDiagnose = true;
 force ace_medical_treatment_advancedMedication = false;
 force ace_medical_treatment_allowLitterCreation = true;
 force ace_medical_treatment_allowSelfIV = 0;
+force ace_medical_treatment_allowSelfPAK = 0;
 force ace_medical_treatment_allowSelfStitch = 1;
 force ace_medical_treatment_allowSharedEquipment = 0;
 force ace_medical_treatment_clearTraumaAfterBandage = true;
@@ -192,7 +195,7 @@ force ace_medical_treatment_consumePAK = 0;
 force ace_medical_treatment_consumeSurgicalKit = 0;
 force ace_medical_treatment_convertItems = 0;
 force ace_medical_treatment_cprSuccessChance = 0.5;
-force ace_medical_treatment_holsterRequired = 2;
+force ace_medical_treatment_holsterRequired = 0;
 force ace_medical_treatment_litterCleanupDelay = 600;
 force ace_medical_treatment_locationEpinephrine = 0;
 force ace_medical_treatment_locationPAK = 3;
@@ -200,10 +203,12 @@ force ace_medical_treatment_locationsBoostTraining = false;
 force ace_medical_treatment_locationSurgicalKit = 0;
 force ace_medical_treatment_maxLitterObjects = 500;
 force ace_medical_treatment_medicEpinephrine = 1;
-force ace_medical_treatment_medicPAK = 1;
+force ace_medical_treatment_medicIV = 1;
+force ace_medical_treatment_medicPAK = 2;
 force ace_medical_treatment_medicSurgicalKit = 1;
 force ace_medical_treatment_timeCoefficientPAK = 1;
-force ace_medical_treatment_woundReopening = false;
+force ace_medical_treatment_woundReopenChance = 1;
+
 
 // ACE Name Tags
 force force ace_nametags_defaultNametagColor = [1,0.464572,0,1];
@@ -223,11 +228,11 @@ force force ace_nametags_showVehicleCrewInfo = true;
 ace_nametags_tagSize = 2;
 
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur = 0.5;
+force force ace_nightvision_aimDownSightsBlur = 0.2;
 force force ace_nightvision_disableNVGsWithSights = false;
 force force ace_nightvision_effectScaling = 1;
 force force ace_nightvision_fogScaling = 1;
-force force ace_nightvision_noiseScaling = 0.472372;
+force force ace_nightvision_noiseScaling = 0.2;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
