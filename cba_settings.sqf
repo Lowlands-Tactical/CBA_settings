@@ -352,7 +352,7 @@ force ace_zeus_zeusBird = false;
 force force acre_sys_core_automaticAntennaDirection = false;
 force force acre_sys_core_defaultRadioVolume = 0.8;
 force force acre_sys_core_fullDuplex = false;
-acre_sys_core_godVolume = 1;
+force acre_sys_core_godVolume = 1;
 force force acre_sys_core_ignoreAntennaDirection = false;
 force force acre_sys_core_interference = true;
 force force acre_sys_core_postmixGlobalVolume = 1;
@@ -382,48 +382,13 @@ acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
 acre_sys_zeus_zeusCanSpectate = true;
 acre_sys_zeus_zeusCommunicateViaCamera = true;
 acre_sys_zeus_zeusDefaultVoiceSource = false;
-// ACRE2
-force force acre_sys_core_automaticAntennaDirection = false;
-force force acre_sys_core_defaultRadioVolume = 0.8;
-force force acre_sys_core_fullDuplex = false;
-force force acre_sys_core_ignoreAntennaDirection = false;
-force force acre_sys_core_interference = true;
-force force acre_sys_core_postmixGlobalVolume = 1.84893;
-force force acre_sys_core_premixGlobalVolume = 1.78877;
-force force acre_sys_core_revealToAI = 1;
-force force acre_sys_core_spectatorVolume = 1;
-force force acre_sys_core_terrainLoss = 0;
-force force acre_sys_core_ts3ChannelName = "ACRE";
-force force acre_sys_core_ts3ChannelPassword = "";
-force force acre_sys_core_ts3ChannelSwitch = true;
-force force acre_sys_core_unmuteClients = true;
-force force acre_sys_signal_signalModel = 2;
-
-// ACRE2 UI
-acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
-acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
-acre_sys_list_HintBackgroundColor = [0,0.0533022,0.0419617,0.614679];
-acre_sys_list_HintTextFont = "LCD14";
-acre_sys_list_LanguageColor = [1,0.29,0.16,1];
-acre_sys_list_PTT1Color = [0,1,0,1];
-acre_sys_list_PTT2Color = [0,0,1,1];
-acre_sys_list_PTT3Color = [1,0.8,0,1];
-acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1];
-acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
-
-// ACRE2 Zeus
-acre_sys_zeus_zeusCanSpectate = true;
-acre_sys_zeus_zeusCommunicateViaCamera = true;
-acre_sys_zeus_zeusDefaultVoiceSource = false;
-
-
 
 // CBA UI
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
 // CBA Weapons
-cba_disposable_dropUsedLauncher = 2;
+force cba_disposable_dropUsedLauncher = 2;
 force cba_disposable_replaceDisposableLauncher = true;
 cba_events_repetitionMode = 1;
 cba_optics_usePipOptics = true;
@@ -444,19 +409,19 @@ force lambs_danger_debug_Drawing = false;
 force lambs_danger_debug_FSM = false;
 force lambs_danger_debug_FSM_civ = false;
 force lambs_danger_debug_functions = false;
-lambs_danger_disableAIAutonomousManoeuvres = false;
-lambs_danger_disableAICallouts = false;
-lambs_danger_disableAIDeployStaticWeapons = false;
-lambs_danger_disableAIFindStaticWeapons = false;
-lambs_danger_disableAIFleeing = false;
-lambs_danger_disableAIGestures = false;
-lambs_danger_disableAIHideFromTanksAndAircraft = false;
-lambs_danger_disableAIImediateAction = false;
-lambs_danger_disableAIPlayerGroup = false;
-lambs_danger_disableAIPlayerGroupReaction = false;
-lambs_danger_disableAIPlayerGroupSuppression = false;
-lambs_danger_disableAutonomousFlares = false;
-lambs_danger_disableAutonomousSmokeGrenades = true;
+force lambs_danger_disableAIAutonomousManoeuvres = false;
+force lambs_danger_disableAICallouts = false;
+force lambs_danger_disableAIDeployStaticWeapons = false;
+force lambs_danger_disableAIFindStaticWeapons = false;
+force lambs_danger_disableAIFleeing = false;
+force lambs_danger_disableAIGestures = false;
+force lambs_danger_disableAIHideFromTanksAndAircraft = false;
+force lambs_danger_disableAIImediateAction = false;
+force lambs_danger_disableAIPlayerGroup = false;
+force lambs_danger_disableAIPlayerGroupReaction = false;
+force lambs_danger_disableAIPlayerGroupSuppression = false;
+force lambs_danger_disableAutonomousFlares = false;
+force lambs_danger_disableAutonomousSmokeGrenades = true;
 force lambs_danger_maxRevealValue = 0.75;
 force lambs_danger_minFriendlySuppressionDistance = 5;
 force lambs_danger_minSuppression_range = 20;
