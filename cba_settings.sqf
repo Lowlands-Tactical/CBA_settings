@@ -603,6 +603,56 @@ cba_optics_usePipOptics = true;
 kka3_animationMode = "kka3_radio03";
 kka3_disabled = false;
 
+// DUI - Squad Radar - Indicators
+force diwako_dui_indicators_crew_range_enabled = false;
+force force diwako_dui_indicators_fov_scale = false;
+force force diwako_dui_indicators_icon_buddy = false;
+force force diwako_dui_indicators_icon_leader = false;
+force force diwako_dui_indicators_icon_medic = false;
+force force diwako_dui_indicators_range = 20;
+diwako_dui_indicators_range_crew = 300;
+force force diwako_dui_indicators_range_scale = false;
+force force diwako_dui_indicators_show = false;
+force force diwako_dui_indicators_size = 0.5;
+force force diwako_dui_indicators_style = "square";
+force force diwako_dui_indicators_useACENametagsRange = true;
+
+// DUI - Squad Radar - Main
+force force diwako_dui_ace_hide_interaction = true;
+diwako_dui_colors = "ace";
+diwako_dui_font = "PuristaLight";
+force force diwako_dui_icon_style = "terry";
+force force diwako_dui_main_hide_ui_by_default = false;
+force force diwako_dui_main_squadBlue = [0,0,1,1];
+force force diwako_dui_main_squadGreen = [0,1,0,1];
+force force diwako_dui_main_squadMain = [1,1,1,1];
+force force diwako_dui_main_squadRed = [1,0,0,1];
+force force diwako_dui_main_squadYellow = [1,1,0,1];
+diwako_dui_main_trackingColor = [0.93,0.26,0.93,1];
+force force diwako_dui_reset_ui_pos = false;
+
+// DUI - Squad Radar - Nametags
+diwako_dui_nametags_deadColor = [0.2,0.2,0.2,1];
+force force diwako_dui_nametags_deadRenderDistance = 3.5;
+force force diwako_dui_nametags_drawRank = false;
+force force diwako_dui_nametags_enabled = false;
+force force diwako_dui_nametags_enableFOVBoost = false;
+force force diwako_dui_nametags_enableOcclusion = false;
+force force diwako_dui_nametags_fadeInTime = 0.05;
+force force diwako_dui_nametags_fadeOutTime = 0.5;
+force force diwako_dui_nametags_fontGroup = "RobotoCondensedLight";
+force force diwako_dui_nametags_fontGroupNameSize = 8;
+force force diwako_dui_nametags_fontName = "RobotoCondensedBold";
+force force diwako_dui_nametags_fontNameSize = 10;
+diwako_dui_nametags_groupColor = [1,1,1,1];
+force force diwako_dui_nametags_groupFontShadow = 1;
+diwako_dui_nametags_groupNameOtherGroupColor = [0,0,0.6,0];
+force force diwako_dui_nametags_nameFontShadow = 1;
+diwako_dui_nametags_nameOtherGroupColor = [0.2,1,0,1];
+force force diwako_dui_nametags_renderDistance = 40;
+force force diwako_dui_nametags_showUnconAsDead = false;
+force force diwako_dui_nametags_useSideIsFriendly = false;
+
 // DUI - Squad Radar - Radar
 force force diwako_dui_compass_hide_alone_group = true;
 force force diwako_dui_compass_hide_blip_alone_group = true;
