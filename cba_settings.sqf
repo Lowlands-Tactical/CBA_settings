@@ -184,7 +184,7 @@ force ace_repair_locationsBoostTraining = false;
 force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"]; 
 force force ace_repair_repairDamageThreshold = 0.6; 
 force force ace_repair_repairDamageThreshold_engineer = 0.4; 
-force force ace_repair_wheelRepairRequiredItems = ["ace_repair_anyToolKit"]; 
+force force ace_repair_wheelRepairRequiredItems = []; 
 force ace_towing_addRopeToVehicleInventory = true; 
 
 // ACE Magazine Repack 
