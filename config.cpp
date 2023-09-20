@@ -1,5 +1,7 @@
-class CfgPatches {
-    class cba_settings_userconfig {
+class CfgPatches
+{
+    class cba_settings_userconfig
+    {
         author = "$STR_CBA_Author";
         name = "$STR_CBA_Settings_Component";
         url = "$STR_CBA_URL";
