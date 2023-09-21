@@ -2,7 +2,7 @@
 force force ace_advanced_ballistics_ammoTemperatureEnabled = false; 
 force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true; 
 force force ace_advanced_ballistics_bulletTraceEnabled = true; 
-force force ace_advanced_ballistics_enabled = true; 
+force force ace_advanced_ballistics_enabled = false; 
 force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true; 
 force force ace_advanced_ballistics_simulationInterval = 0.05; 
 
@@ -25,8 +25,8 @@ force force ace_advanced_throwing_showThrowArc = true;
 
 // ACE Advanced Vehicle Damage 
 force ace_vehicle_damage_enableCarDamage = false; 
-force force ace_vehicle_damage_enabled = true; 
-force force ace_vehicle_damage_removeAmmoDuringCookoff = true; 
+force force ace_vehicle_damage_enabled = false; 
+force force ace_vehicle_damage_removeAmmoDuringCookoff = false; 
 
 // ACE Arsenal 
 force force ace_arsenal_allowDefaultLoadouts = true; 
