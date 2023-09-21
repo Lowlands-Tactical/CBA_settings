@@ -497,10 +497,10 @@ force ace_viewports_enabled = true;
 
 // ACE View Restriction
 force acex_viewrestriction_mode = 0;
-force acex_viewrestriction_modeSelectiveAir = 0;
+force acex_viewrestriction_modeSelectiveAir = 1;
 force acex_viewrestriction_modeSelectiveFoot = 1;
 force acex_viewrestriction_modeSelectiveLand = 0;
-force acex_viewrestriction_modeSelectiveSea = 0;
+force acex_viewrestriction_modeSelectiveSea = 1;
 
 // ACE Volume 
 acex_volume_enabled = false; 
