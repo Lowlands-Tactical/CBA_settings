@@ -817,10 +817,10 @@ Achilles_var_moduleTreeSearchPatch = false;
 // ACRE2 
 force force acre_sys_core_automaticAntennaDirection = false; 
 force force acre_sys_core_defaultRadioVolume = 0.8; 
-force force acre_sys_core_fullDuplex = false; 
+force force acre_sys_core_fullDuplex = true; 
 acre_sys_core_godVolume = 1; 
 force force acre_sys_core_ignoreAntennaDirection = true; 
-force force acre_sys_core_interference = true; 
+force force acre_sys_core_interference = false; 
 force force acre_sys_core_postmixGlobalVolume = 1; 
 force force acre_sys_core_premixGlobalVolume = 1; 
 force force acre_sys_core_revealToAI = 0.75; 
@@ -920,7 +920,7 @@ force force diwako_dui_indicators_useACENametagsRange = true;
 // DUI - Squad Radar - Main 
 force force diwako_dui_ace_hide_interaction = true; 
 diwako_dui_colors = "ace"; 
-diwako_dui_font = "PuristaLight"; 
+diwako_dui_font = "RobotoCondensedLight"; 
 force force diwako_dui_icon_style = "terry"; 
 force force diwako_dui_main_hide_ui_by_default = false; 
 force force diwako_dui_main_squadBlue = [0,0,1,1]; 
