@@ -848,23 +848,23 @@ acre_sys_gestures_stopADS = false;
 
 // ACRE2 UI 
 acre_sys_godmode_rxNotification = true; 
-acre_sys_godmode_rxNotificationColor = [0.8,0.8,0.8,1]; 
+force acre_sys_godmode_rxNotificationColor = [0.8,0.8,0.8,1]; 
 acre_sys_godmode_txNotification = true; 
-acre_sys_godmode_txNotificationCurrentChatColor = [0.8,0.8,0.8,1]; 
-acre_sys_godmode_txNotificationGroup1Color = [0.8,0.8,0.8,1]; 
-acre_sys_godmode_txNotificationGroup2Color = [0.8,0.8,0.8,1]; 
-acre_sys_godmode_txNotificationGroup3Color = [0.8,0.8,0.8,1]; 
-acre_sys_gui_volumeColorScale = [[1,1,0,0.5],[1,0.83,0,0.5],[1,0.65,0,0.5],[1,0.44,0,0.5],[1,0,0,0.5]]; 
-acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1]; 
-acre_sys_list_DefaultPTTColor = [1,0.8,0,1]; 
-acre_sys_list_HintBackgroundColor = [0,0.0533022,0.0419617,0.614679]; 
+force acre_sys_godmode_txNotificationCurrentChatColor = [0.8,0.8,0.8,1]; 
+force acre_sys_godmode_txNotificationGroup1Color = [0.8,0.8,0.8,1]; 
+force acre_sys_godmode_txNotificationGroup2Color = [0.8,0.8,0.8,1]; 
+force acre_sys_godmode_txNotificationGroup3Color = [0.8,0.8,0.8,1]; 
+force acre_sys_gui_volumeColorScale = [[1,1,0,0.5],[1,0.83,0,0.5],[1,0.65,0,0.5],[1,0.44,0,0.5],[1,0,0,0.5]]; 
+force acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1]; 
+force acre_sys_list_DefaultPTTColor = [1,0.8,0,1]; 
+force acre_sys_list_HintBackgroundColor = [0,0.0533022,0.0419617,0.614679]; 
 acre_sys_list_HintTextFont = "LCD14"; 
-acre_sys_list_LanguageColor = [1,0.29,0.16,1]; 
-acre_sys_list_PTT1Color = [0,1,0,1]; 
-acre_sys_list_PTT2Color = [0,0,1,1]; 
-acre_sys_list_PTT3Color = [1,0.8,0,1]; 
-acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1]; 
-acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1]; 
+force acre_sys_list_LanguageColor = [1,0.29,0.16,1]; 
+force acre_sys_list_PTT1Color = [0,1,0,1]; 
+force acre_sys_list_PTT2Color = [0,0,1,1]; 
+force acre_sys_list_PTT3Color = [1,0.8,0,1]; 
+force acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1]; 
+force acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1]; 
 
 // ACRE2 Zeus 
 acre_sys_zeus_zeusCanSpectate = true; 
