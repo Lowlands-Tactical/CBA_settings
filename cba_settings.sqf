@@ -1062,6 +1062,34 @@ force grad_trenches_functions_vehicleEnvelopeDigTime = 70;
 force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 force grad_trenches_functions_vehicleTrenchBuildSpeed = 5;
 
+// Improved Melee System (Client Settings)
+IMS_CustomCamer_Y = 3;
+IMS_CustomCameraUsedByUserAllowed = true;
+IMS_EnablePlayerSounds = false;
+IMS_HudCoordinate_X = 0.01;
+IMS_HudCoordinate_Y = 0.9;
+IMS_ShowHealthHud = false;
+
+// Improved Melee System (Server Settings)
+force IMS_AddKnifeToUnit = false;
+force IMS_BayonetDistance = "6";
+force IMS_BayonetOnAI = false;
+force IMS_BluntWeapon = false;
+force IMS_CustomAIHEALTH = "2";
+force IMS_DamageMultiplierParam = "1";
+force IMS_DamageMultiplierParamPlayer = "1";
+force IMS_ExecutionChanceParametr = "20";
+force IMS_isFistsAllowd = false;
+force IMS_isHumansCanHitSM = false;
+force IMS_isImsCanHitAllies = false;
+force IMS_isKickButtInstaKill = true;
+force IMS_isStaticDeaths = true;
+force IMS_RifleDodgeSet = false;
+force IMS_StealthAI_Ears = 15;
+force IMS_StealthAI_Eyes = 40;
+force IMS_WBK_CUSTOMCAMSERVER = false;
+force IMS_WBK_MAINFPTP = true;
+
 // LAMBS Danger 
 force lambs_danger_cqbRange = 60; 
 lambs_danger_disableAIAutonomousManoeuvres = false; 
@@ -1117,5 +1145,12 @@ force L_Suppress_intensity = 1;
 force L_Suppress_playerSwabEnabled = false; 
 force L_Suppress_recovery = 2; 
 
-// ZaD - ACE integration 
-force zad_ace_int_pillHeal_enable = false; 
+// WebKnight's Zombies
+force WBK_ZombiesIsUseBitingAnimation = false;
+force WBK_ZombiesIsUseParticleDeathControl = true;
+force WBK_ZombiesIsUseStatDeathControl = true;
+force WBK_ZommbiesLeaperHealthParam = "120";
+force WBK_ZommbiesMeleeHealthParam = "100";
+force WBK_ZommbiesSmasherHealthParam = "750";
+force WBK_ZommbiesSmasherJumpParam = true;
+force WBK_ZommbiesSmasherThrowParam = false; 
