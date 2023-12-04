@@ -288,7 +288,7 @@ force ace_medical_statemachine_cardiacArrestTime = 300;
 force ace_medical_statemachine_fatalInjuriesAI = 0;
 force ace_medical_statemachine_fatalInjuriesPlayer = 1;
 force ace_medical_treatment_advancedBandages = 2;
-force ace_medical_treatment_advancedDiagnose = 0;
+force ace_medical_treatment_advancedDiagnose = 2;
 force ace_medical_treatment_advancedMedication = false;
 force ace_medical_treatment_allowBodyBagUnconscious = false;
 force ace_medical_treatment_allowGraveDigging = 2;
@@ -327,7 +327,7 @@ force ace_medical_treatment_treatmentTimeIV = 10;
 force ace_medical_treatment_treatmentTimeSplint = 3;
 force ace_medical_treatment_treatmentTimeTourniquet = 3;
 force ace_medical_treatment_woundReopenChance = 1;
-force ace_medical_treatment_woundStitchTime = 4;
+force ace_medical_treatment_woundStitchTime = 2.5;
 
 // ACE Name Tags 
 force ace_nametags_ambientBrightnessAffectViewDist = 1; 
