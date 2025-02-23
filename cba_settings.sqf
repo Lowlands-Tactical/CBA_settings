@@ -991,3 +991,24 @@ force force WBK_ZommbiesSmasherThrowParam_Deb = "45";
 force force WBK_ZommbiesSmasherThrowParam_Deb_Fire = "15";
 force force WBK_ZommbiesSmasherThrowParam_Deb_Spewer = "20";
 force force WBK_ZommbiesSmasherThrowParam_Deb_TP = "40";
+
+// OCAP - Main
+force force OCAP_administratorList = "[""76561198042684200"",""76561198028914656"",""76561198014060493"",""76561197992586763"",""76561198047491445""]";
+force force OCAP_enabled = true;
+force force OCAP_isDebug = false;
+
+// OCAP - Recorder
+force force OCAP_settings_autoStart = true;
+force force OCAP_settings_excludeClassFromRecord = "['ACE_friesAnchorBar']";
+force force OCAP_settings_excludeKindFromRecord = "['WeaponHolder']";
+force force OCAP_settings_excludeMarkerFromRecord = "['SystemMarker_','ACE_BFT_']";
+force force OCAP_settings_frameCaptureDelay = 1;
+force force OCAP_settings_minMissionTime = 1;
+force force OCAP_settings_minPlayerCount = 1;
+force force OCAP_settings_preferACEUnconscious = true;
+force force OCAP_settings_saveMissionEnded = true;
+force force OCAP_settings_saveOnEmpty = true;
+force force OCAP_settings_saveTag = "PvE";
+force force OCAP_settings_trackTickets = true;
+force force OCAP_settings_trackTimeInterval = 10;
+force force OCAP_settings_trackTimes = true;
