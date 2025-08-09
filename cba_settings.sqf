@@ -15,6 +15,11 @@ force force ace_advanced_fatigue_performanceFactor = 1;
 force force ace_advanced_fatigue_recoveryFactor = 1;
 force force ace_advanced_fatigue_terrainGradientFactor = 1;
 
+// ACE Advanced Missile Guidance
+force force ace_missileguidance_chaffEffectivenessCoef = 1;
+force force ace_missileguidance_flareAngleCoef = 1;
+force force ace_missileguidance_flareEffectivenessCoef = 1;
+
 // ACE Advanced Throwing
 force force ace_advanced_throwing_enabled = true;
 force force ace_advanced_throwing_enablePickUp = true;
@@ -24,7 +29,7 @@ force force ace_advanced_throwing_showMouseControls = true;
 force force ace_advanced_throwing_showThrowArc = true;
 
 // ACE Advanced Vehicle Damage
-force ace_vehicle_damage_enableCarDamage = false;
+force force ace_vehicle_damage_enableCarDamage = false;
 force force ace_vehicle_damage_enabled = false;
 
 // ACE AI
@@ -92,10 +97,10 @@ force force ace_cookoff_probabilityCoef = 1;
 force force ace_cookoff_removeAmmoDuringCookoff = true;
 
 // ACE Crew Served Weapons
-force force ace_csw_ammoHandling = 2;
+force force ace_csw_ammoHandling = 0;
 force force ace_csw_defaultAssemblyMode = false;
 force force ace_csw_dragAfterDeploy = true;
-force force ace_csw_handleExtraMagazines = false;
+force force ace_csw_handleExtraMagazines = true;
 force force ace_csw_handleExtraMagazinesType = 1;
 force force ace_csw_progressBarTimeCoefficent = 1;
 
@@ -132,7 +137,7 @@ force acex_field_rations_waterSourceActions = 2;
 force force ace_fire_dropWeapon = 1;
 force force ace_fire_enabled = false;
 force force ace_fire_enableFlare = true;
-force force ace_fire_enableScreams = true;
+ace_fire_enableScreams = true;
 
 // ACE Fortify
 force ace_fortify_markObjectsOnMap = 1;
@@ -264,6 +269,7 @@ ace_maptools_rotateModifierKey = 1;
 force force ace_medical_ai_enabledFor = 0;
 force force ace_medical_ai_requireItems = 0;
 force force ace_medical_AIDamageThreshold = 1;
+force ace_medical_alternateArmorPenetration = true;
 force force ace_medical_bleedingCoefficient = 0.25;
 force force ace_medical_blood_bloodLifetime = 600;
 force force ace_medical_blood_enabledFor = 2;
@@ -271,7 +277,6 @@ force force ace_medical_blood_maxBloodObjects = 200;
 force force ace_medical_deathChance = 0.85;
 force force ace_medical_dropWeaponUnconsciousChance = 0;
 force force ace_medical_enableVehicleCrashes = false;
-force force ace_medical_engine_damagePassThroughEffect = 0.5;
 force force ace_medical_fatalDamageSource = 2;
 force force ace_medical_fractureChance = 0.4;
 force force ace_medical_fractures = 1;
@@ -345,7 +350,7 @@ force force ace_medical_treatment_allowSharedEquipment = 1;
 force force ace_medical_treatment_bandageEffectiveness = 2;
 force force ace_medical_treatment_bandageRollover = true;
 force force ace_medical_treatment_clearTrauma = 1;
-force force ace_medical_treatment_consumePAK = 0;
+force force ace_medical_treatment_consumePAK = 1;
 force force ace_medical_treatment_consumeSurgicalKit = 0;
 force force ace_medical_treatment_convertItems = 0;
 force force ace_medical_treatment_cprSuccessChanceMax = 0.8;
@@ -487,9 +492,9 @@ force force ace_scopes_correctZeroing = true;
 force force ace_scopes_deduceBarometricPressureFromTerrainAltitude = false;
 force force ace_scopes_defaultZeroRange = 300;
 force force ace_scopes_enabled = true;
-force force ace_scopes_forceUseOfAdjustmentTurrets = false;
+force force ace_scopes_forceUseOfAdjustmentTurrets = true;
 force force ace_scopes_inScopeAdjustment = true;
-force force ace_scopes_overwriteZeroRange = true;
+force force ace_scopes_overwriteZeroRange = false;
 force force ace_scopes_simplifiedZeroing = true;
 ace_scopes_useLegacyUI = false;
 force force ace_scopes_zeroReferenceBarometricPressure = 1013.25;
@@ -521,15 +526,15 @@ force force ace_trenches_smallEnvelopeDigDuration = 20;
 force force ace_trenches_smallEnvelopeRemoveDuration = 12;
 
 // ACE Uncategorized
-force force ace_fastroping_autoAddFRIES = false;
-force force ace_fastroping_requireRopeItems = false;
+force force ace_fastroping_autoAddFRIES = true;
+force force ace_fastroping_requireRopeItems = true;
 ace_flags_enableCarrying = true;
 ace_flags_enablePlacing = true;
 force force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = -1;
 force force ace_hitreactions_weaponDropChanceArmHitAI = 0;
 force force ace_hitreactions_weaponDropChanceArmHitPlayer = 0;
-force force ace_inventory_inventoryDisplaySize = 0;
+ace_inventory_inventoryDisplaySize = 0;
 force force ace_laser_dispersionCount = 2;
 force force ace_laser_showLaserOnMap = 1;
 force force ace_marker_flags_placeAnywhere = false;
@@ -537,8 +542,8 @@ force force ace_microdagr_mapDataAvailable = 2;
 force force ace_microdagr_waypointPrecision = 3;
 force force ace_noradio_enabled = true;
 force force ace_optionsmenu_showNewsOnMainMenu = false;
-force force ace_overpressure_backblastDistanceCoefficient = 1;
-force force ace_overpressure_overpressureDistanceCoefficient = 1;
+force force ace_overpressure_backblastDistanceCoefficient = 0.3;
+force force ace_overpressure_overpressureDistanceCoefficient = 0.7;
 force force ace_parachute_failureChance = 0.0001;
 force force ace_parachute_hideAltimeter = true;
 force force ace_tagging_quickTag = 1;
@@ -728,13 +733,13 @@ cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
 // Death and Hit Reactions
-force force WBK_DeathAnimMod_Death_Chance = "30";
+force force WBK_DeathAnimMod_Death_Chance = "40";
 force force WBK_DeathAnimMod_Deaths_AI = true;
 force force WBK_DeathAnimMod_Deaths_HUGEANIMS = true;
 force force WBK_DeathAnimMod_Deaths_NECKSHOTS = true;
 force force WBK_DeathAnimMod_Deaths_PLR = true;
 force force WBK_DeathAnimMod_Flinch_AI = true;
-force force WBK_DeathAnimMod_Flinch_PLR = true;
+force force WBK_DeathAnimMod_Flinch_PLR = false;
 force force WBK_DeathAnimMod_Hit_AI = true;
 force force WBK_DeathAnimMod_Hit_Chance = "60";
 force force WBK_DeathAnimMod_Hit_Chance_PLR = "10";
@@ -862,10 +867,6 @@ force force diwako_dui_radar_sqlFirst = true;
 force diwako_dui_radar_syncGroup = false;
 force diwako_dui_radar_vehicleCompassEnabled = false;
 force force diwako_dui_use_layout_editor = false;
-
-// Entropy Map
-force WBK_Entropy_EnableMainAmbience = true;
-force WBK_Entropy_EnableViewDistLock = true;
 
 // Fire support PLUS
 force FSPLUS_105mmTrainingShell = true;
